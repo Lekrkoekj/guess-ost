@@ -1,0 +1,962 @@
+[
+    {
+        "gameName": "Tomodachi Life",
+        "console": "3DS",
+        "publisher": "Nintendo",
+        "year": "2014",
+        "series": "Mii",
+        "img": "https://images.launchbox-app.com/4f85e4d0-53ba-4b4d-b9c2-772bd8aacf80.jpg"
+    },
+    {
+        "gameName": "Mario VS Donkey Kong: Minis March Again!",
+        "console": "DSi",
+        "publisher": "Nintendo",
+        "year": "2009",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/07334178-8b97-4f9f-86b7-a33995418c07.jpg"
+    },
+    {
+        "gameName": "Mario Party DS",
+        "console": "DS",
+        "publisher": "Nintendo",
+        "year": "2007",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/ae05cf74-e854-40c9-aa79-ad24c771027c.jpg"
+    },
+    {
+        "gameName": "Mario Party 8",
+        "console": "Wii",
+        "publisher": "Nintendo",
+        "year": "2007",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/3a375b62-3bb3-4d0f-b055-e647e5e7bbd4.jpg"
+    },
+    {
+        "gameName": "Super Mario 64 DS",
+        "console": "DS",
+        "publisher": "Nintendo",
+        "year": "2004",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/a7c174d9-969b-40ed-a61d-37badecaf97e.jpg"
+    },
+    {
+        "gameName": "Mii Maker",
+        "console": "Wii U",
+        "publisher": "Nintendo",
+        "year": "2012",
+        "series": "Nintendo",
+        "img": "https://images.launchbox-app.com/173bc18c-d829-493e-916c-22f09b09a0f1.png"
+    },
+    {
+        "gameName": "Wii U",
+        "console": "Wii U",
+        "publisher": "Nintendo",
+        "year": "2012",
+        "series": "Nintendo",
+        "img": "https://www.nintendo.com/eu/media/images/10_share_images/systems_11/wii_u_11/H2x1_generic_WiiU_image1280w.jpg"
+    },
+    {
+        "gameName": "Wii Sports",
+        "console": "Wii",
+        "publisher": "Nintendo",
+        "year": "2006",
+        "series": "Wii Sports",
+        "img": "https://images.launchbox-app.com/5b006462-3104-421e-b366-bcc1da72b54c.jpg"
+    },
+    {
+        "gameName": "Mario Kart DS",
+        "console": "DS",
+        "publisher": "Nintendo",
+        "year": "2005",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/63ff569b-13a0-4e02-8342-d799b1fd1c50.jpg"
+    },
+    {
+        "gameName": "Pokémon Legends: Arceus",
+        "console": "Switch",
+        "publisher": "Game Freak",
+        "year": "2022",
+        "series": "Pokémon",
+        "img": "https://images.launchbox-app.com/9600fee1-56bc-4a19-a17f-65fc85688aae.jpg"
+    },
+    {
+        "gameName": "Cooking Mama",
+        "console": "DS",
+        "publisher": "Cooking Mama Limited",
+        "year": "2006",
+        "series": "Cooking Mama",
+        "img": "https://images.launchbox-app.com/f5ac616e-25de-4dbf-b672-ae9dc6a5014d.jpg"
+    },
+    {
+        "gameName": "Pokémon Omega Ruby & Alpha Sapphire",
+        "console": "3DS",
+        "publisher": "Game Freak",
+        "year": "2014",
+        "series": "Pokémon",
+        "img": "https://images.launchbox-app.com/271ccadb-83ac-45a3-89a6-759e139822e5.jpg"
+    },
+    {
+        "gameName": "Pokémon Black & White 2",
+        "console": "DS",
+        "publisher": "Game Freak",
+        "year": "2012",
+        "series": "Pokémon",
+        "img": "https://images.launchbox-app.com/a7476fa4-7f15-4a61-8f1d-c31387d61f76.jpg"
+    },
+    {
+        "gameName": "Pokémon Sun & Moon",
+        "console": "3DS",
+        "publisher": "Game Freak",
+        "year": "2016",
+        "series": "Pokémon",
+        "img": "https://images.launchbox-app.com/2853812a-b2e8-44a1-a354-4f6be8f7ce75.jpg"
+    },
+    {
+        "gameName": "Pokémon Mystery Dungeon: Gates to Infinity",
+        "console": "3DS",
+        "publisher": "The Pokémon Company",
+        "year": "2013",
+        "series": "Pokémon",
+        "img": "https://images.launchbox-app.com/020d4515-9bc2-4858-9ec2-34c1654987d7.jpg"
+    },
+    {
+        "gameName": "Pokémon Diamond & Pearl",
+        "console": "DS",
+        "publisher": "Game Freak",
+        "year": "2007",
+        "series": "Pokémon",
+        "img": "https://images.launchbox-app.com/153a1bf6-321f-44be-a094-0eb368c65afc.jpg"
+    },
+    {
+        "gameName": "Pokémon HeartGold & SoulSilver",
+        "console": "DS",
+        "publisher": "Game Freak",
+        "year": "2010",
+        "series": "Pokémon",
+        "img": "https://images.launchbox-app.com/9f9cdb3b-a620-4f23-b1b4-abfb1c298e78.jpg"
+    },
+    {
+        "gameName": "Wii",
+        "console": "Wii",
+        "publisher": "Nintendo",
+        "year": "2006",
+        "series": "Nintendo",
+        "img": "https://www.olover.com/media/cache/product_image/8d/f6/22ff462bab0839a0cda23f1e5d80.jpeg"
+    },
+    {
+        "gameName": "Pokémon Mystery Dungeon: Explorers of Sky",
+        "console": "DS",
+        "publisher": "The Pokémon Company",
+        "year": "2009",
+        "series": "Pokémon",
+        "img": "https://images.launchbox-app.com/e74549cf-560b-411a-8e31-de51ada23df8.jpg"
+    },
+    {
+        "gameName": "Pokémon Shuffle",
+        "console": "3DS",
+        "publisher": "The Pokémon Company",
+        "year": "2015",
+        "series": "Pokémon",
+        "img": "https://images.launchbox-app.com/0664957d-0b99-43bf-8cbc-12fdf18f7a21.jpg"
+    },
+    {
+        "gameName": "Stardew Valley",
+        "console": "PC",
+        "publisher": "ConcernedApe",
+        "year": "2016",
+        "series": "Stardew Valley",
+        "img": "https://images.launchbox-app.com/1f51c08a-3c0c-48ea-82a5-810454b95c87.jpg"
+    },
+    {
+        "gameName": "DSi",
+        "console": "DSi",
+        "publisher": "Nintendo",
+        "year": "2009",
+        "series": "Nintendo",
+        "img": "https://m.media-amazon.com/images/I/810AcMoO3iL.jpg"
+    },
+    {
+        "gameName": "Pokémon Brilliant Diamond & Shining Pearl",
+        "console": "Switch",
+        "publisher": "ILCA",
+        "year": "2021",
+        "series": "Pokémon",
+        "img": "https://images.launchbox-app.com/933f6dde-7e20-4f5e-a468-5f0c32461b7c.jpg"
+    },
+    {
+        "gameName": "Super Mario Odyssey",
+        "console": "Switch",
+        "publisher": "Nintendo",
+        "year": "2017",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/6729485f-ae47-4915-8dd7-2b1584050d4b.jpg"
+    },
+    {
+        "gameName": "Nintendo Badge Arcade",
+        "console": "3DS",
+        "publisher": "Nintendo",
+        "year": "2015",
+        "series": "Nintendo",
+        "img": "https://images.launchbox-app.com/5a75aa62-c2dd-4094-8ca6-f51f7a864756.jpg"
+    },
+    {
+        "gameName": "Inazuma Eleven",
+        "console": "DS",
+        "publisher": "Level-5",
+        "year": "2011",
+        "series": "Inazuma Eleven",
+        "img": "https://images.launchbox-app.com/64daeb5d-fbc2-4f47-9a9d-c6a1533e6dac.jpg"
+    },
+    {
+        "gameName": "Nintendo Switch Sports",
+        "console": "Switch",
+        "publisher": "Nintendo",
+        "year": "2022",
+        "series": "Wii Sports",
+        "img": "https://images.launchbox-app.com/63ecc357-a7d1-496e-badf-5d4bec55f49f.jpg"
+    },
+    {
+        "gameName": "Mario Paint",
+        "console": "SNES",
+        "publisher": "Nintendo",
+        "year": "1992",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/5284586a-cda9-402c-ad4d-5b674ca728dc.jpg"
+    },
+    {
+        "gameName": "Bomberman Land Touch!",
+        "console": "DS",
+        "publisher": "Hudson Soft",
+        "year": "2006",
+        "series": "Bomberman",
+        "img": "https://images.launchbox-app.com/370315e0-60ed-40ea-a680-d48ca03efe43.jpg"
+    },
+    {
+        "gameName": "Tetris Party Deluxe",
+        "console": "DS",
+        "publisher": "Hudson Soft",
+        "year": "2010",
+        "series": "Tetris",
+        "img": "https://images.launchbox-app.com/982077de-2f3d-4f52-a208-c6fb89a3b30e.jpg"
+    },
+    {
+        "gameName": "Super Mario 3D Land",
+        "console": "3DS",
+        "publisher": "Nintendo",
+        "year": "2011",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/6f3a405b-4256-4d0c-9257-703ed1b94952.jpg"
+    },
+    {
+        "gameName": "New Super Mario Bros.",
+        "console": "DS",
+        "publisher": "Nintendo",
+        "year": "2006",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/5d6768f6-71d8-4927-a999-8279e3430ac6.png"
+    },
+    {
+        "gameName": "Dr. Mario",
+        "console": "NES",
+        "publisher": "Nintendo",
+        "year": "1990",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/40a6e33a-a1d8-4226-9e9b-5398226156e2.jpg"
+    },
+    {
+        "gameName": "Check Mii Out Channel",
+        "console": "Wii",
+        "publisher": "Nintendo",
+        "year": "2007",
+        "series": "Nintendo",
+        "img": "https://images.igdb.com/igdb/image/upload/t_1080p_2x/co2gxd.jpg"
+    },
+    {
+        "gameName": "Everybody Votes Channel",
+        "console": "Wii",
+        "publisher": "Nintendo",
+        "year": "2007",
+        "series": "Nintendo",
+        "img": "https://static.wikia.nocookie.net/d841ffb1-bdfc-4596-97cf-c4ce7f986a91/scale-to-width/755"
+    },
+    {
+        "gameName": "Pokémon Black & White",
+        "console": "DS",
+        "publisher": "Game Freak",
+        "year": "2011",
+        "series": "Pokémon",
+        "img": "https://images.launchbox-app.com/e5f57368-d334-40ce-953d-14dbd60d40e9.png"
+    },
+    {
+        "gameName": "Wii Party",
+        "console": "Wii",
+        "publisher": "Nintendo",
+        "year": "2010",
+        "series": "Wii Party",
+        "img": "https://images.launchbox-app.com/4cd74ae8-b894-4446-b2b8-1fd48e16408f.jpg"
+    },
+    {
+        "gameName": "Wii Party U",
+        "console": "Wii U",
+        "publisher": "Nintendo",
+        "year": "2013",
+        "series": "Wii Party",
+        "img": "https://images.launchbox-app.com/0823b183-d47d-4cfe-bd04-705bc0a77b3f.jpg"
+    },
+    {
+        "gameName": "Rubik's Puzzle World",
+        "console": "Wii",
+        "publisher": "Two Tribes",
+        "year": "2008",
+        "series": "Rubik's",
+        "img": "https://images.launchbox-app.com/2dcdfe89-55c0-4f16-ad32-a8776e490c5c.png"
+    },
+    {
+        "gameName": "Mario Party Superstars",
+        "console": "Switch",
+        "publisher": "Nintendo",
+        "year": "2021",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/1dd9551d-f8f6-461b-bf98-ae8977d6ff30.jpg"
+    },
+    {
+        "gameName": "Super Mario Bros. 2",
+        "console": "NES",
+        "publisher": "Nintendo",
+        "year": "1988",
+        "series": "Mario",
+        "img": "https://upload.wikimedia.org/wikipedia/en/7/78/Super_Mario_Bros._2_box_art.png"
+    },
+    {
+        "gameName": "Fortune Street",
+        "console": "Wii",
+        "publisher": "Square Enix",
+        "year": "2011",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/0ab7cde5-d6b1-4301-8e55-4994f01ecb86.jpg"
+    },
+    {
+        "gameName": "Sonic The Hedgehog",
+        "console": "Genesis",
+        "publisher": "Sega",
+        "year": "1991",
+        "series": "Sonic",
+        "img": "https://images.launchbox-app.com/9f647bdd-c985-4771-8119-9a2b4926b76a.jpg"
+    },
+    {
+        "gameName": "Super Mario World",
+        "console": "SNES",
+        "publisher": "Nintendo",
+        "year": "2002",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/1a175c33-1c72-4524-bc46-9f88b566cb16.jpg"
+    },
+    {
+        "gameName": "Super Mario Sunshine",
+        "console": "GameCube",
+        "publisher": "Nintendo",
+        "year": "2002",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/c953705e-44d3-40f7-ba2b-7dee1b84a768.jpg"
+    },
+    {
+        "gameName": "Pokémon X & Y",
+        "console": "3DS",
+        "publisher": "Game Freak",
+        "year": "2013",
+        "series": "Pokémon",
+        "img": "https://images.launchbox-app.com/0953448c-97c5-47db-ac0c-6e443a50db1e.jpg"
+    },
+    {
+        "gameName": "Wii Sports Resort",
+        "console": "Wii",
+        "publisher": "Nintendo",
+        "year": "2009",
+        "series": "Wii Sports",
+        "img": "https://images.launchbox-app.com/5d7e7dda-f0b5-41e9-88d7-7ef926f3fdcf.png"
+    },
+    {
+        "gameName": "Wii Play",
+        "console": "Wii",
+        "publisher": "Nintendo",
+        "year": "2006",
+        "series": "Wii",
+        "img": "https://images.launchbox-app.com/a4dafe2a-0fa5-49ae-9d04-8acfe0a12023.png"
+    },
+    {
+        "gameName": "Pokémon Conquest",
+        "console": "DS",
+        "publisher": "The Pokémon Company",
+        "year": "2012",
+        "series": "Pokémon",
+        "img": "https://images.launchbox-app.com/b81d9ff0-d299-46c6-b634-facd59eff1ca.jpg"
+    },
+    {
+        "gameName": "Miitomo",
+        "console": "Mobile",
+        "publisher": "Nintendo",
+        "year": "2016",
+        "series": "Mii",
+        "img": "https://static.wikia.nocookie.net/nintendo/images/0/00/Miitomo.png/revision/latest?cb=20230311130046&path-prefix=en"
+    },
+    {
+        "gameName": "Super Mario Maker",
+        "console": "Wii U",
+        "publisher": "Nintendo",
+        "year": "2015",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/986980e6-3f78-49a3-ba1f-0a794c34c53b.jpg"
+    },
+    {
+        "gameName": "Super Mario Maker 2",
+        "console": "Switch",
+        "publisher": "Nintendo",
+        "year": "2019",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/eed3af69-51eb-4cf0-b4b9-8217603c4da8.jpg"
+    },
+    {
+        "gameName": "Tetris 99",
+        "console": "Switch",
+        "publisher": "Nintendo",
+        "year": "2019",
+        "series": "Tetris",
+        "img": "https://images.launchbox-app.com/d24ad245-a192-4899-88fc-705f508f9b8e.jpg"
+    },
+    {
+        "gameName": "Mario Kart 8 Deluxe",
+        "console": "Switch",
+        "publisher": "Nintendo",
+        "year": "2017",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/e0f1b0b5-7443-4479-8911-afd857061f48.jpg"
+    },
+    {
+        "gameName": "New Super Mario Bros. 2",
+        "console": "3DS",
+        "publisher": "Nintendo",
+        "year": "2012",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/4e80193a-d189-4c43-b124-b5a03f7e9f00.jpg"
+    },
+    {
+        "gameName": "Yoshi's Crafted World",
+        "console": "Switch",
+        "publisher": "Nintendo",
+        "year": "2019",
+        "series": "Yoshi",
+        "img": "https://images.launchbox-app.com/8166088f-16c4-4741-bf96-b75397cd65a8.jpg"
+    },
+    {
+        "gameName": "Super Mario World 2: Yoshi's Island",
+        "console": "SNES",
+        "publisher": "Nintendo",
+        "year": "1995",
+        "series": "Yoshi",
+        "img": "https://images.launchbox-app.com/019cbea1-242c-40b7-b4bd-3e58495ecfaf.jpg"
+    },
+    {
+        "gameName": "New Super Mario Bros. Wii",
+        "console": "Wii",
+        "publisher": "Nintendo",
+        "year": "2009",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/eb296a47-bcab-4870-88c9-bacf86da7a37.png"
+    },
+    {
+        "gameName": "Sonic Rush Adventure",
+        "console": "DS",
+        "publisher": "Sega",
+        "year": "2007",
+        "series": "Sonic",
+        "img": "https://images.launchbox-app.com/ffed7392-b689-4f00-999f-fc063dc93b6f.jpg"
+    },
+    {
+        "gameName": "Mario Kart Wii",
+        "console": "Wii",
+        "publisher": "Nintendo",
+        "year": "2008",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/dc7cc621-0ad8-4854-8720-93da07879cd2.jpg"
+    },
+    {
+        "gameName": "Fire Emblem Three Houses",
+        "console": "Switch",
+        "publisher": "Koei Tecmo",
+        "year": "2019",
+        "series": "Fire Emblem",
+        "img": "https://images.launchbox-app.com/1a38f635-6289-406e-9682-5e4cc8ed5b8b.jpg"
+    },
+    {
+        "gameName": "Mario Sports Mix",
+        "console": "Wii",
+        "publisher": "Square Enix",
+        "year": "2011",
+        "series": "Mario",
+        "img": "https://images.launchbox-app.com/35b49f82-9f7a-454c-a082-ef95866038ac.png"
+    },
+    {
+        "gameName": "Plants vs. Zombies",
+        "console": "PC",
+        "publisher": "PopCap",
+        "year": "2009",
+        "series": "Plants vs. Zombies",
+        "img": "https://images.launchbox-app.com/79d4f845-2779-4d09-9a22-2e7a5b3d57fd.jpg"
+    },
+    {
+        "gameName": "Plants vs. Zombies 2",
+        "console": "Mobile",
+        "publisher": "PopCap",
+        "year": "2013",
+        "series": "Plants vs. Zombies",
+        "img": ""
+    },
+    {
+        "gameName": "Super Mario Galaxy 2",
+        "console": "Wii",
+        "publisher": "Nintendo",
+        "year": "2010",
+        "series": "Mario",
+        "img": ""
+    },
+    {
+        "gameName": "Super Mario 64",
+        "console": "Nintendo 64",
+        "publisher": "Nintendo",
+        "year": "1996",
+        "series": "Mario",
+        "img": ""
+    },
+    {
+        "gameName": "Rainbow Web 2",
+        "console": "PC",
+        "publisher": "Sugar Games",
+        "year": "2008",
+        "series": "Rainbow Web",
+        "img": ""
+    },
+    {
+        "gameName": "Sonic & Sega All-Stars Racing",
+        "console": "Wii",
+        "publisher": "Sega",
+        "year": "2010",
+        "series": "Sonic",
+        "img": ""
+    },
+    {
+        "gameName": "Sonic Heroes",
+        "console": "GameCube",
+        "publisher": "Sega",
+        "year": "2003",
+        "series": "Sonic",
+        "img": ""
+    },
+    {
+        "gameName": "Sonic Adventure",
+        "console": "GameCube",
+        "publisher": "Sega",
+        "year": "1998",
+        "series": "Sonic",
+        "img": ""
+    },
+    {
+        "gameName": "StreetPass Mii Plaza",
+        "console": "3DS",
+        "publisher": "Nintendo",
+        "year": "2011",
+        "series": "Nintendo",
+        "img": ""
+    },
+    {
+        "gameName": "StreetPass Fishing",
+        "console": "3DS",
+        "publisher": "Nintendo",
+        "year": "2015",
+        "series": "Nintendo",
+        "img": ""
+    },
+    {
+        "gameName": "Kirby and the Forgotten Land",
+        "console": "Switch",
+        "publisher": "HAL Laboratory",
+        "year": "2022",
+        "series": "Kirby",
+        "img": ""
+    },
+    {
+        "gameName": "Super Mario RPG",
+        "console": "SNES",
+        "publisher": "SquareSoft",
+        "year": "1996",
+        "series": "Mario",
+        "img": ""
+    },
+    {
+        "gameName": "Super Princess Peach",
+        "console": "DS",
+        "publisher": "Nintendo",
+        "year": "2006",
+        "series": "Mario",
+        "img": ""
+    },
+    {
+        "gameName": "Inazuma Eleven 2: Firestorm & Blizzard",
+        "console": "DS",
+        "publisher": "Level-5",
+        "year": "2012",
+        "series": "Inazuma Eleven",
+        "img": ""
+    },
+    {
+        "gameName": "Inazuma Eleven 3: Lightning Bolt, Bomb Blast & Team Ogre Attacks",
+        "console": "3DS",
+        "publisher": "Level-5",
+        "year": "2013",
+        "series": "Inazuma Eleven",
+        "img": ""
+    },
+    {
+        "gameName": "GO VACATION",
+        "console": "Wii",
+        "publisher": "Bandai Namco",
+        "year": "2011",
+        "series": "Mii",
+        "img": ""
+    },
+    {
+        "gameName": "Fire Emblem Fates",
+        "console": "3DS",
+        "publisher": "Intelligent Systems",
+        "year": "2015",
+        "series": "Fire Emblem",
+        "img": ""
+    },
+    {
+        "gameName": "Bomberman Land Touch! 2",
+        "console": "DS",
+        "publisher": "Hudson Soft",
+        "year": "2008",
+        "series": "Bomberman",
+        "img": ""
+    },
+    {
+        "gameName": "de Blob",
+        "console": "Wii",
+        "publisher": "Blue Tongue",
+        "year": "2008",
+        "series": "de Blob",
+        "img": ""
+    },
+    {
+        "gameName": "de Blob 2",
+        "console": "Wii",
+        "publisher": "Blue Tongue",
+        "year": "2011",
+        "series": "de Blob",
+        "img": ""
+    },
+    {
+        "gameName": "Pokémon Scarlet & Violet",
+        "console": "Switch",
+        "publisher": "Game Freak",
+        "year": "2022",
+        "series": "Pokémon",
+        "img": ""
+    },
+    {
+        "gameName": "Barn Yarn",
+        "console": "PC",
+        "publisher": "Playrix",
+        "year": "2012",
+        "series": "Barn Yarn",
+        "img": ""
+    },
+    {
+        "gameName": "Mario & Luigi: Partners in Time",
+        "console": "DS",
+        "publisher": "AlphaDream",
+        "year": "2005",
+        "series": "Mario",
+        "img": ""
+    },
+    {
+        "gameName": "Mario & Luigi: Bowsers Inside Story",
+        "console": "DS",
+        "publisher": "AlphaDream",
+        "year": "2009",
+        "series": "Mario",
+        "img": ""
+    },
+    {
+        "gameName": "Animal Crossing: Wild World",
+        "console": "DS",
+        "publisher": "Nintendo",
+        "year": "2005",
+        "series": "Animal Crossing",
+        "img": ""
+    },
+    {
+        "gameName": "Animal Crossing: New Horizons",
+        "console": "Switch",
+        "publisher": "Nintendo",
+        "year": "2020",
+        "series": "Animal Crossing",
+        "img": ""
+    },
+    {
+        "gameName": "Portal",
+        "console": "PC",
+        "publisher": "Valve",
+        "year": "2007",
+        "series": "Portal",
+        "img": ""
+    },
+    {
+        "gameName": "Miitopia",
+        "console": "3DS",
+        "publisher": "Nintendo",
+        "year": "2017",
+        "series": "Mii",
+        "img": ""
+    },
+    {
+        "gameName": "Minecraft",
+        "console": "PC",
+        "publisher": "Mojang",
+        "year": "2011",
+        "series": "Minecraft",
+        "img": ""
+    },
+    {
+        "gameName": "Cars",
+        "console": "Wii",
+        "publisher": "Incinerator Studios",
+        "year": "2006",
+        "series": "Cars",
+        "img": ""
+    },
+    {
+        "gameName": "Cars: Race-O-Rama",
+        "console": "Wii",
+        "publisher": "Incinerator Studios",
+        "year": "2009",
+        "series": "Cars",
+        "img": ""
+    },
+    {
+        "gameName": "Cars 2",
+        "console": "Wii",
+        "publisher": "Avalanche Software",
+        "year": "2011",
+        "series": "Cars",
+        "img": ""
+    },
+    {
+        "gameName": "Yo-kai Watch",
+        "console": "3DS",
+        "publisher": "Level-5",
+        "year": "2015",
+        "series": "Yo-kai Watch",
+        "img": ""
+    },
+    {
+        "gameName": "DuckTales",
+        "console": "NES",
+        "publisher": "Capcom",
+        "year": "1990",
+        "series": "DuckTales",
+        "img": ""
+    },
+    {
+        "gameName": "Yo-kai Watch 2",
+        "console": "3DS",
+        "publisher": "Level-5",
+        "year": "2016",
+        "series": "Yo-kai Watch",
+        "img": ""
+    },
+    {
+        "gameName": "Yo-kai Watch Blasters",
+        "console": "3DS",
+        "publisher": "Level-5",
+        "year": "2018",
+        "series": "Yo-kai Watch",
+        "img": ""
+    },
+    {
+        "gameName": "Yoshi's Woolly World",
+        "console": "Wii U",
+        "publisher": "Good-Feel",
+        "year": "2015",
+        "series": "Yoshi",
+        "img": ""
+    },
+    {
+        "gameName": "Rhythm Heaven Fever",
+        "console": "Wii",
+        "publisher": "Nintendo",
+        "year": "2012",
+        "series": "Rhythm Heaven",
+        "img": ""
+    },
+    {
+        "gameName": "Super Mario Bros. Wonder",
+        "console": "Switch",
+        "publisher": "Nintendo",
+        "year": "2023",
+        "series": "Mario",
+        "img": ""
+    },
+    {
+        "gameName": "Satisfactory",
+        "console": "PC",
+        "publisher": "Coffee Stain",
+        "year": "2024",
+        "series": "Satisfactory",
+        "img": ""
+    },
+    {
+        "gameName": "Mario & Sonic at the Olympic Winter Games",
+        "console": "DS",
+        "publisher": "Sega",
+        "year": "2009",
+        "series": "Mario & Sonic",
+        "img": ""
+    },
+    {
+        "gameName": "Geometry Dash",
+        "console": "Mobile",
+        "publisher": "RobTop",
+        "year": "2013",
+        "series": "Geometry Dash",
+        "img": ""
+    },
+    {
+        "gameName": "Beat Saber",
+        "console": "PC",
+        "publisher": "Beat Games",
+        "year": "2019",
+        "series": "Beat Saber",
+        "img": ""
+    },
+    {
+        "gameName": "Jet Set Radio",
+        "console": "Dreamcast",
+        "publisher": "Sega",
+        "year": "2000",
+        "series": "Jet Set Radio",
+        "img": ""
+    },
+    {
+        "gameName": "Mario & Sonic at the London 2012 Olympic Games Wii",
+        "console": "Wii",
+        "publisher": "Sega",
+        "year": "2011",
+        "series": "Mario & Sonic",
+        "img": ""
+    },
+    {
+        "gameName": "Mario & Sonic at the London 2012 Olympic Games 3DS",
+        "console": "3DS",
+        "publisher": "Sega",
+        "year": "2012",
+        "series": "Mario & Sonic",
+        "img": ""
+    },
+    {
+        "gameName": "PokéPark Pikachu's Adventure",
+        "console": "Wii",
+        "publisher": "Creatures Inc",
+        "year": "2010",
+        "series": "Pokémon",
+        "img": ""
+    },
+    {
+        "gameName": "Mario Strikers Charged",
+        "console": "Wii",
+        "publisher": "Next Level Games",
+        "year": "2007",
+        "series": "Mario",
+        "img": ""
+    },
+    {
+        "gameName": "Fire Emblem Warriors: Three Hopes",
+        "console": "Switch",
+        "publisher": "Koei Tecmo",
+        "year": "2022",
+        "series": "Fire Emblem",
+        "img": ""
+    },
+    {
+        "gameName": "Poképark 2 Wonders Beyond",
+        "console": "Wii",
+        "publisher": "Creatures Inc",
+        "year": "2012",
+        "series": "Pokémon",
+        "img": ""
+    },
+    {
+        "gameName": "Mario Hoops 3-on-3",
+        "console": "DS",
+        "publisher": "Square Enix",
+        "year": "2006",
+        "series": "Mario",
+        "img": ""
+    },
+    {
+        "gameName": "Undertale",
+        "console": "PC",
+        "publisher": "Toby Fox",
+        "year": "2015",
+        "series": "Undertale",
+        "img": ""
+    },
+    {
+        "gameName": "Sonic Unleashed",
+        "console": "Wii",
+        "publisher": "Sega",
+        "year": "2008",
+        "series": "Sonic",
+        "img": ""
+    },
+    {
+        "gameName": "Sonic Adventure 2",
+        "console": "Dreamcast",
+        "publisher": "Sega",
+        "year": "2001",
+        "series": "Sonic",
+        "img": ""
+    },
+    {
+        "gameName": "Sonic the Hedgehog CD",
+        "console": "Sega CD",
+        "publisher": "Sega",
+        "year": "1993",
+        "series": "Sonic",
+        "img": ""
+    },
+    {
+        "gameName": "Sonic Colors",
+        "console": "Wii",
+        "publisher": "Sega",
+        "year": "2010",
+        "series": "Sonic",
+        "img": ""
+    },
+    {
+        "gameName": "Sonic the Hedgehog 4",
+        "console": "Wii",
+        "publisher": "Sega",
+        "year": "2010",
+        "series": "Sonic",
+        "img": ""
+    },
+    {
+        "gameName": "Sonic R",
+        "console": "Saturn",
+        "publisher": "Sega",
+        "year": "1997",
+        "series": "Sonic",
+        "img": ""
+    }
+]

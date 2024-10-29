@@ -1,0 +1,263 @@
+body {
+    background: white;
+    font-family: 'Fredoka';
+    color: #333333;
+}
+.centered {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"] {
+    background: white;
+    border: 0;
+    box-shadow: 0px 2px 7px 0px #0000001a;
+    font-size: 16px;
+    font-family: "Fredoka";
+    padding: 20px;
+    border-radius: 5px;
+}
+.search-result-container {
+    background: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    user-select: none;
+    gap: 10px;
+}
+.search-result-container:hover {
+    background: #00000019;
+    cursor: pointer;
+}
+.search-result-container img {
+    max-height: 50px;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+}
+.search-result-text {
+    width: 100%;
+}
+#title-input {
+    width: calc(100% - 40px)
+}
+.small {
+    width: 100%;
+    max-width: 500px;
+}
+
+.guess-result {
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    animation: fade-in 1s ease-out;
+}
+
+.guess-result h2 {
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+}
+
+.guess-result-heading {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.result-img {
+    max-height: 75px;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+}
+
+.guess-result-tile-content {
+    font-size: 26px;
+    font-weight: 500;
+}
+.guess-result-tile {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 2px 7px 0px #0000001a;
+    animation: scaleIn linear 0.5s;
+    transform: scaleY(0%);
+    animation-fill-mode: forwards;
+}
+.guess-result-tile[data-field="series-tile"] {
+    animation-delay: 0.4s;
+}
+.guess-result-tile[data-field="console-tile"] {
+    animation-delay: 0.8s;
+}
+.guess-result-tile[data-field="publisher-tile"] {
+    animation-delay: 1.2s;
+}
+.guess-result-tile[data-field="year-tile"] {
+    animation-delay: 1.6s;
+}
+
+
+.two-columns .guess-result-tile {
+    width: 100%;
+}
+
+.two-columns {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.green-tile {
+    background-color: #43a865;
+}
+
+.green-text {
+    color: #43a865;
+}
+
+.yellow-tile {
+    background-color: #b8b105;
+}
+
+.yellow-text {
+    color: #b8b105;
+}
+
+.dropdown-search {
+    max-height: 300px;
+    overflow-y: scroll;
+    position: absolute;
+    top: 20px;
+    background: white;
+    box-shadow: 0px 2px 7px 0px #0000001a;
+    border-radius: 5px;
+    z-index: 10;
+    width: 100%;
+}
+.dropdown-container {
+    position: relative;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+@keyframes fade-in {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+button {
+    background: #5facea;
+    color: white;
+    border: 0;
+    box-shadow: 0px 2px 7px 0px #0000001a;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Fredoka";
+    padding: 20px;
+    align-items: center;
+    margin: 20px;
+    border-radius: 5px;
+    transition: 0.2s;
+    user-select: none;
+}
+img {
+    user-select: none;
+}
+button:hover {
+    box-shadow: 0px 2px 7px 0px #0000004a;
+    transform: translate(0px, -5px);
+}
+
+.loading-circle {
+    width: 50px;
+    height: 50px;
+    animation: rotate 1s linear infinite;
+}
+#loading-text {
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scaleY(0%);
+        opacity: 0;
+    }
+    to {
+        transform: scaleY(100%);
+        opacity: 1;
+    }
+}
+
+.volume-control-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.volume-control-container img {
+    height: 25px;
+    object-fit: contain;
+    aspect-ratio: 1;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+#pause-icon, #play-icon {
+    cursor: pointer;
+}
+
+.guess-result-tile-content-flex {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+#year-relative {
+    color: white;
+    transform: translateY(1px);
+}
+.year-lower {
+    rotate: 0deg;
+}
+.year-higher {
+    rotate: 180deg;
+}
+.year-correct {
+    display: none;
+}
+
+img#game-over-img {
+    max-width: 100%;
+}
