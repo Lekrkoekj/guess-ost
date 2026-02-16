@@ -2,12 +2,17 @@ body {
     background: white;
     font-family: 'Fredoka';
     color: #333333;
+    height: calc(100vh - 8px * 2);
+}
+.main {
+    height: calc(100vh - 8px * 2);
 }
 .centered {
     text-align: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 input[type="text"] {
     background: white;
@@ -15,14 +20,13 @@ input[type="text"] {
     font-size: 16px;
     font-family: "Fredoka";
     padding: 20px;
-    border-radius: 5px;
 }
 #title-input-container {
-    width: calc(100% - 40px);
     display: flex;
     border-radius: 5px;
     box-shadow: 0px 2px 7px 0px #0000001a;
     align-items: center;
+    overflow: hidden;
 }
 #title-input {
     width: 100%;
@@ -39,7 +43,7 @@ input[type="text"] {
     gap: 5px;
     margin: 0;
     box-shadow: none;
-    border-radius: none;
+    border-radius: 0;
 }
 #filter-by-game-button:hover {
     transform: none;
@@ -155,7 +159,7 @@ input[type="text"] {
     max-height: 300px;
     overflow-y: scroll;
     position: absolute;
-    top: 20px;
+    bottom: 18px;
     background: white;
     box-shadow: 0px 2px 7px 0px #0000001a;
     border-radius: 5px;
@@ -194,12 +198,15 @@ button {
     cursor: pointer;
     font-size: 16px;
     font-family: "Fredoka";
-    padding: 20px;
+    padding: 18px;
     align-items: center;
     margin: 20px;
     border-radius: 5px;
     transition: 0.2s;
     user-select: none;
+}
+.smaller-button {
+    padding: 12px 18px;
 }
 img {
     user-select: none;
@@ -284,4 +291,93 @@ button:hover {
 img#game-over-img {
     max-width: 100%;
     max-height: 400px;
+}
+
+#game-view {
+    height: calc(100vh - 22px); 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    margin-bottom: 150px;
+    overflow-x: hidden;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    border-top: lightgray 1px solid;
+}
+
+footer {
+    position: absolute;
+    bottom: 18px;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 10;
+}
+
+#guess-list {
+    margin-bottom: 20px;
+}
+
+#bottom-gradient {
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(0deg, white, transparent);
+    margin: -5px;
+}
+
+#top-gradient {
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    display: block;
+    bottom: -20px;
+    background: linear-gradient(0deg, transparent, white);
+}
+
+@media (prefers-color-scheme: dark) {
+    body, header, footer {
+        background: #131719;
+        color: #e8e8e8;
+    }
+    button, #title-input, #filter-by-game-button {
+        background: #323672;
+        color: #e8e8e8;
+    }
+    #filter-by-game-button, hr, #controls, hr {
+        border-color: #1b2022;
+    }
+    .search-result-container {
+        border-color: #323672;
+    }
+    #pause-icon, #play-icon, #volume-icon {
+        filter: invert(0.8);
+    }
+    #top-gradient {
+        background: linear-gradient(0deg, transparent, #131719);
+    }
+    #bottom-gradient {
+        background: linear-gradient(0deg, #131719, transparent);
+    }
+    .search-result-container {
+        background: #1b2022;
+    }
+    .dropdown-search {
+        background: #323672;
+    }
+    .guess-result-tile {
+        background: #1b2022;
+    }
 }

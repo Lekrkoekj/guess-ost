@@ -1,13 +1,17 @@
-function AddGuess(songName, gameName, videoId) {
+let guesses = [];
+
+function AddGuess(song, game) {
   let template = document.getElementById("guess-template");
   let guessResult = template.cloneNode(true);
   guessResult.style.display = "flex"
   guessResult.id = "";
 
   currentGuessAmount++;
+  guesses.push(song);
   document.getElementById("guess-counter").innerText = `Guess ${currentGuessAmount} of ${maxGuesses}:`  
 
-  let game = games.filter((game) => game.gameName == gameName)[0];
+  let gameName = game.gameName;
+  let songName = song.songName;
 
   // Song title
   guessResult.querySelector('[data-field="song-title"]').innerText = songName;

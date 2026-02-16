@@ -3,6 +3,7 @@ document.getElementById("volumeControl").value = localStorage.getItem("volume");
 // Youtube Functions
 function LaunchVideo() {
     document.getElementById("video-container").remove();
+    document.getElementById("game-over-button").style.display = "none";
     let newDiv = document.createElement("div");
     newDiv.classList.add("video-container");
     newDiv.id = "video-container";
@@ -26,8 +27,9 @@ function onPlayerReady(event) {
     player.setVolume(document.getElementById("volumeControl").value);
     event.target.setLoop(true)
     document.getElementById("loading-text").style.display = "none";
-    document.getElementById("game-view").style.display = "block";
+    document.getElementById("game-view").style.display = "flex";
     document.getElementById("before-game").style.display = "none";
+    document.getElementById("game-over-button").style.display = "inline";
 
     if (player.getVideoData().isPlayable == false) {
         console.log("video unavailible, selecting new song")

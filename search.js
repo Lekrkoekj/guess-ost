@@ -26,7 +26,7 @@ function Search() {
     ClearSearchResults();
 
     // Don't display any results if the search query is empty
-    if(searchBar.value == "") return;
+    if(searchBar.value == "" || searchBar.value.length < 3) return;
 
     let template = document.getElementById("search-result-template");
     // Load in every song
@@ -44,6 +44,9 @@ function Search() {
             nSong.includes(word)
         );
 
+        // don't include songs that were already guessed;
+        if(guesses.includes(songs[i])) continue;
+
         // Process search query - only create list items for any songs that match the query
         if (matches) { 
             let searchResult = template.cloneNode(true);
@@ -58,7 +61,7 @@ function Search() {
             searchResult.id = "";
     
             searchResult.addEventListener("mousedown", (event) => {
-                SelectSong(searchResult)
+                SelectSong(songs[i], game)
             })
             document.getElementById("search-results").append(searchResult);
         }
@@ -131,6 +134,9 @@ function SelectGame(gameName) {
     Search();
 }
 
-function SelectSong(resultElement) {
-    AddGuess(resultElement.querySelector('[data-field="song-name"]').innerText, resultElement.querySelector('[data-field="game-name"]').innerText)
+function SelectSong(song, game) {
+    AddGuess(song, game)
+    searchBar.value = "";
+    ClearSearchResults();
+    document.getElementById("game-view").scrollTop = 0;
 }

@@ -56,14 +56,20 @@ function SetRandomGame() {
 function GameOver(won) {
     let gameOverContainer = document.getElementById("game-over");
     gameOverContainer.querySelector("#game-over-img").src = selectedGame.img;
-    gameOverContainer.querySelector("[data-field='songGameName']").innerText = `${selectedSong.songName} - ${selectedSong.gameName}`
-    gameOverContainer.querySelector("[data-field='yearConsole']").innerText = `Release in ${selectedGame.year} for the ${selectedGame.console}.`
+    gameOverContainer.querySelector("[data-field='songName']").innerText = `${selectedSong.songName}`
+    gameOverContainer.querySelector("[data-field='gameName']").innerText = `from ${selectedSong.gameName}`
+    gameOverContainer.querySelector("[data-field='yearConsole']").innerHTML = `Released in <b>${selectedGame.year}</b> for the <b>${selectedGame.console}</b>.`
+
+    if(selectedGame.moreInfo) gameOverContainer.querySelector("[data-field='moreInfo']").href = selectedGame.moreInfo;
+    else gameOverContainer.querySelector("[data-field='moreInfo']").style.display = "none";
+
     if(won) {
         gameOverContainer.querySelector("#game-over-header").innerText = "You got it!"
-        gameOverContainer.querySelector("[data-field='guessAmount']").innerText = `You guessed the song correctly in ${currentGuessAmount} attempts.`
+        gameOverContainer.querySelector("[data-field='guessAmount']").innerText = `You guessed the song correctly in ${currentGuessAmount} attempts. Nice job!`
     }
     else {
         gameOverContainer.querySelector("#game-over-header").innerText = "Game Over!"
+        if(currentGuessAmount - 2 < 1) currentGuessAmount = 2;
         gameOverContainer.querySelector("[data-field='guessAmount']").innerText = `You did not manage to guess the song correctly in ${currentGuessAmount - 2} attempts. Better luck next time!`
     }
     document.getElementById("game-view").style.display = "none";
@@ -71,7 +77,7 @@ function GameOver(won) {
 }
 
 function CloseGameOver() {
-    document.getElementById("game-view").style.display = "block";
+    document.getElementById("game-view").style.display = "flex";
     document.getElementById("game-over").style.display = "none";
 }
 
@@ -82,18 +88,19 @@ function ViewGuesses() {
 }
 
 function RestartGame() {
-    document.getElementById("title-input").style.display = "block";
+    document.getElementById("title-input-container").style.display = "flex";
     document.getElementById("guess-counter").style.display = "block";
     document.getElementById("game-view").style.display = "none";
     document.getElementById("game-over").style.display = "none";
     document.getElementById("before-game").style.display = "block";
     currentGuessAmount = 1;
-    document.getElementById("guess-counter").innerText = `Guess ${currentGuessAmount} of ${maxGuesses}:`;
+    document.getElementById("guess-counter").innerText = `Guess ${currentGuessAmount}/${maxGuesses}:`;
     for(let i = 0; i < document.getElementById("guess-list").childNodes.length - 1; i++) {
         if (document.getElementById("guess-list").childNodes[i].nodeType !== Node.TEXT_NODE) {
             document.getElementById("guess-list").childNodes[i].style.display = "none";
             console.log("removed" + i)
         }
     }
+    guesses = [];
     fetchSongs();
 }
