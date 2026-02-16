@@ -8,14 +8,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
-    <title>Guess the video game song</title>
+    <title>OSTdle</title>
 </head>
 
 <body>
     <div class="centered">
         <div class="small">
             <div id="before-game">
-                <h1>Guess the video game song</h1>
+                <h1>OSTdle</h1>
+                <p>Try to guess the video game track within 10 attempts!</p>
+                <p>More than 2.500 from 150+ games are included, based on songs we picked from games we enjoyed playing or found while filling our playlist.</p>
                 <button id="play-button" onclick="fetchSongs();">Start</button>
                 <div id="loading-text" style="display: none">
                     <svg class="loading-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
@@ -30,9 +32,9 @@
                     <span>Loading...</span>
                 </div>
             </div>
-            <div id="game-view" style="display:block">
-                <h1>Guess the video game song</h1>
-                <h3 id="guess-counter">Guess 1 of 10:</h3>
+            <div id="game-view" style="display:none">
+                <h1>OSTdle</h1>
+                <h3 id="guess-counter">Guess 1/10:</h3>
                 <div id="title-input-container">
                     <input id="title-input" type="text" autocomplete="off" placeholder="Enter song/game name..." />
                     <button id="filter-by-game-button">

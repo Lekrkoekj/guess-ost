@@ -55,10 +55,12 @@ function AddGuess(songName, gameName, videoId) {
     guessResult.querySelector('[data-field="year-tile"]').title = "The game of the song you're trying to guess WAS NOT released in this exact year, but WAS released within 5 years from this. ❌";
   }
   if (game.year < selectedGame.year) {
-    guessResult.querySelector('#year-relative').classList.add("year-higher")
+    guessResult.querySelector('#year-relative').classList.add("year-higher");
+    guessResult.querySelector('#year-relative').title = "The game of the song you're trying to guess was released LATER than this game. ⬆";
   }
   if (game.year > selectedGame.year) {
-    guessResult.querySelector('#year-relative').classList.add("year-lower")
+    guessResult.querySelector('#year-relative').classList.add("year-lower");
+    guessResult.querySelector('#year-relative').title = "The game of the song you're trying to guess was released EARLIER than this game. ⬇";
   }
   if (game.year == selectedGame.year) {
     guessResult.querySelector('#year-relative').classList.add("year-correct")

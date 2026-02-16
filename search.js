@@ -6,6 +6,22 @@ searchBar.addEventListener("input", (event) => {
     }, 500);
 });
 
+/** 
+ * Normalize strings to the following:
+ * Convert to lowercase
+ * Remove accents
+ * Collapse extra spaces
+ */
+function normalizeString(str) {
+    return str
+    .toLowerCase()
+    .normalize("NFD")                 // separate accent from letter
+    .replace(/[\u0300-\u036f]/g, "")  // remove accents
+    .replace(/[^a-z0-9\s]/g, "")      // remove special characters
+    .replace(/\s+/g, " ")             // remove extra spaces
+    .trim();
+}
+
 function Search() {
     ClearSearchResults();
 
@@ -17,8 +33,19 @@ function Search() {
     for (let i = 0; i < songs.length; i++) {
         
         const songGameString = songs[i].songName + " - " + songs[i].gameName
+
+        // normalize the song/game name and query
+        const nSong = normalizeString(songGameString); 
+        const nQuery = normalizeString(searchBar.value);
+
+        // check query per word, so not full titles have to be given (e.g. "mario wonder" instead of "Super Mario Bros. Wonder")
+        const queryWords = nQuery.split(" ");
+        const matches = queryWords.every(word => 
+            nSong.includes(word)
+        );
+
         // Process search query - only create list items for any songs that match the query
-        if (songGameString.toLowerCase().includes(searchBar.value.toLowerCase())) { 
+        if (matches) { 
             let searchResult = template.cloneNode(true);
 
             let game = games.filter((game) => game.gameName == songs[i].gameName)[0];

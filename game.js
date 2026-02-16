@@ -77,7 +77,7 @@ function CloseGameOver() {
 
 function ViewGuesses() {
     CloseGameOver();
-    document.getElementById("title-input").style.display = "none";
+    document.getElementById("title-input-container").style.display = "none";
     document.getElementById("guess-counter").style.display = "none";
 }
 
