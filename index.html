@@ -16,7 +16,7 @@
         <div class="small">
             <div id="before-game">
                 <h1>Guess the video game song</h1>
-                <button id="play-button" onclick="fetchSongs();">Play</button>
+                <button id="play-button" onclick="fetchSongs();">Start</button>
                 <div id="loading-text" style="display: none">
                     <svg class="loading-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
                         <defs>
@@ -30,18 +30,35 @@
                     <span>Loading...</span>
                 </div>
             </div>
-            <div id="game-view" style="display:none">
+            <div id="game-view" style="display:block">
                 <h1>Guess the video game song</h1>
                 <h3 id="guess-counter">Guess 1 of 10:</h3>
-                <input id="title-input" type="text" autocomplete="off" placeholder="Enter song/game name..." />
+                <div id="title-input-container">
+                    <input id="title-input" type="text" autocomplete="off" placeholder="Enter song/game name..." />
+                    <button id="filter-by-game-button">
+                        <span>Filter by game</span>
+                        <img src="dropdown.svg" id="game-dropdown-icon">
+                    </button>
+                </div>
                 <div class="dropdown-container">
                     <div class="dropdown-search" id="search-results" style="display:none">
                         <div class="search-result-container" id="search-result-template" style="display:none;">
                             <img loading="lazy" data-field="img"
-                                src="https://images.launchbox-app.com/6f3a405b-4256-4d0c-9257-703ed1b94952.jpg">
+                                src="">
                             <div class="search-result-text" id="search-result-text">
                                 <span data-field="song-name">Template</span>
                                 <span> - </span>
+                                <span data-field="game-name">game name</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown-container">
+                    <div class="dropdown-search" id="game-list" style="display:none">
+                        <div class="search-result-container" id="game-template" style="display:none;">
+                            <img loading="lazy" data-field="img"
+                                src="">
+                            <div class="search-result-text" id="search-result-text">
                                 <span data-field="game-name">game name</span>
                             </div>
                         </div>
@@ -73,7 +90,7 @@
                                 <span class="guess-result-tile-content" data-field="series-text">---</span>
                             </div>
                             <div class="guess-result-tile" data-field="console-tile">
-                                <span class="guess-result-tile-head">Console</span>
+                                <span class="guess-result-tile-head">Console/Platform</span>
                                 <br>
                                 <span class="guess-result-tile-content" data-field="console-text">---</span>
                             </div>

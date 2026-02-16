@@ -12,11 +12,40 @@ body {
 input[type="text"] {
     background: white;
     border: 0;
-    box-shadow: 0px 2px 7px 0px #0000001a;
     font-size: 16px;
     font-family: "Fredoka";
     padding: 20px;
     border-radius: 5px;
+}
+#title-input-container {
+    width: calc(100% - 40px);
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0px 2px 7px 0px #0000001a;
+    align-items: center;
+}
+#title-input {
+    width: 100%;
+}
+#filter-by-game-button {
+    text-wrap-mode: nowrap;
+    padding: 20px;
+    user-select: none;
+    border-left: 1px solid lightgray;
+    background: transparent;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+    box-shadow: none;
+    border-radius: none;
+}
+#filter-by-game-button:hover {
+    transform: none;
+}
+#game-dropdown-icon {
+    height: 20px;
 }
 .search-result-container {
     background: white;
@@ -39,14 +68,11 @@ input[type="text"] {
 .search-result-text {
     width: 100%;
 }
-#title-input {
-    width: calc(100% - 40px)
-}
+
 .small {
     width: 100%;
     max-width: 500px;
 }
-
 .guess-result {
     margin: 10px 0px;
     width: 100%;
@@ -55,15 +81,12 @@ input[type="text"] {
     gap: 10px;
     animation: fade-in 1s ease-out;
 }
-
 .guess-result h2 {
     margin: 10px 0px 10px 0px;
     width: 100%;
 }
-
 .guess-result-heading {
     display: flex;
-    gap: 20px;
     align-items: center;
 }
 
@@ -260,4 +283,5 @@ button:hover {
 
 img#game-over-img {
     max-width: 100%;
+    max-height: 400px;
 }

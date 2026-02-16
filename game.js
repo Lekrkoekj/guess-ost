@@ -38,9 +38,9 @@ function fetchGames() {
         })
         .then(data => {
             games = data;
-            SetupSearch();
             SetRandomGame();
             LaunchVideo();
+            SetupGameList();
         })
         .catch(error => {
             console.error('game fetching error:', error);
@@ -64,7 +64,7 @@ function GameOver(won) {
     }
     else {
         gameOverContainer.querySelector("#game-over-header").innerText = "Game Over!"
-        gameOverContainer.querySelector("[data-field='guessAmount']").innerText = `You did not manage to guess the song correctly in ${currentGuessAmount - 1} attempts. Better luck next time!`
+        gameOverContainer.querySelector("[data-field='guessAmount']").innerText = `You did not manage to guess the song correctly in ${currentGuessAmount - 2} attempts. Better luck next time!`
     }
     document.getElementById("game-view").style.display = "none";
     document.getElementById("game-over").style.display = "block";
