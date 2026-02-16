@@ -362,8 +362,8 @@ header {
     .search-result-container {
         border-color: #323672;
     }
-    #pause-icon, #play-icon, #volume-icon {
-        filter: invert(0.8);
+    #pause-icon, #play-icon, #volume-icon, #game-dropdown-icon {
+        filter: invert(0.8); 
     }
     #top-gradient {
         background: linear-gradient(0deg, transparent, #131719);
