@@ -17,7 +17,7 @@
             <h1>OSTdle</h1>
             <p>Try to guess the video game track within 10 attempts!</p>
             <p>More than 2.500 from 150+ games are included, based on songs we picked from games we enjoyed playing or found while filling our playlist.</p>
-            <button id="play-button" onclick="fetchSongs();">Start</button>
+            <button id="play-button" onclick="fetchSongs();">Start&nbsp;&nbsp;&nbsp;🡒</button>
             <div id="loading-text" style="display: none">
                 <svg class="loading-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
                     <defs>
@@ -91,7 +91,7 @@
                             <img onclick="TogglePlayback()" id="pause-icon" src="pause.svg">
                             <img id="play-icon" onclick="TogglePlayback()" src="play.svg" style="display: none;">
                         </div>
-                        <button id="game-over-button" class="smaller-button" onclick="GameOver(false)">Give up</button>
+                        <button id="game-over-button" class="smaller-button" onclick="GameOver(false)">🞫&nbsp;&nbsp;&nbsp;Give up</button>
                     </div>
                     <div class="dropdown-container" class="small">
                         <div class="dropdown-search" id="search-results" style="display:none">
@@ -137,8 +137,8 @@
             <p data-field="yearConsole" style="animation: fade-in 1s; animation-delay: 300ms; animation-fill-mode: both;">Released in YEAR for the CONSOLE.</p>
             <p data-field="guessAmount" style="animation: fade-in 1s; animation-delay: 300ms; animation-fill-mode: both;">You guessed the correct song in 0 attempts.</p>
             <p><a data-field="moreInfo" href="" style="animation: fade-in 1s; animation-delay: 300ms; animation-fill-mode: both;">More information about this game</a></p>
-            <button onclick="ViewGuesses()" style="animation: fade-in 1s; animation-delay: 300ms; animation-fill-mode: both;">View Guesses</button>
-            <button onclick="RestartGame()" style="animation: fade-in 1s; animation-delay: 300ms; animation-fill-mode: both;">Restart</button>
+            <button onclick="ViewGuesses()" style="animation: fade-in 1s; animation-delay: 300ms; animation-fill-mode: both;">🡐&nbsp;&nbsp;&nbsp;View Guesses</button>
+            <button onclick="RestartGame()" style="animation: fade-in 1s; animation-delay: 300ms; animation-fill-mode: both;">⟳&nbsp;&nbsp;&nbsp;Try Again</button>
         </div>
     </main> 
     <div class="video-container" id="video-container"></div>
