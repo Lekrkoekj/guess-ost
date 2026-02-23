@@ -20,7 +20,17 @@ function fetchSongs() {
             return response.json();
         })
         .then(data => {
-            songs = data;
+            songs = data.sort((a, b) => {
+                const gameCompare = a.gameName
+                    .toLowerCase()
+                    .localeCompare(b.gameName.toLowerCase());
+            
+                if (gameCompare !== 0) return gameCompare;
+            
+                return a.songName
+                    .toLowerCase()
+                    .localeCompare(b.songName.toLowerCase());
+            });
             fetchGames();
         })
         .catch(error => {
@@ -37,7 +47,7 @@ function fetchGames() {
             return response.json();
         })
         .then(data => {
-            games = data;
+            games = data.sort((a, b) => a.gameName.localeCompare(b.gameName));;
             SetRandomGame();
             LaunchVideo();
             SetupGameList();
